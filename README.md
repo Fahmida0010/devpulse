@@ -121,15 +121,8 @@ Create a `.env` file in the root directory:
 
 ```env
 PORT=5000
-
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_NAME=devpulse
-
+DATABASE_URL=your-postgresql-url
 JWT_SECRET=your_secret_key
-
 BCRYPT_SALT_ROUNDS=10
 ```
 
