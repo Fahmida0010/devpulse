@@ -31,6 +31,8 @@ export const createIssueIntoDB = async (
 export const getAllIssuesFromDB = async (
   queryData: any
 ) => {
+   console.log("queryData =", queryData);
+
   let query = `SELECT * FROM issues WHERE 1=1`;
 
   const values = [];
